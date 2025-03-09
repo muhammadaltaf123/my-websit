@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">APPLICATION FORM</h1>
+    
+    <h2>A. GENERAL QUESTIONS</h2>
+    <form>
+        <label>Proposed Insured's Name:</label><br>
+        <input type="text" name="insured_name" size="50"><br><br>
+        
+        <label>Birth Date:</label>
+        <input type="date" name="birth_date"> &nbsp;&nbsp;
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+        
+        <label>Address:</label><br>
+        <input type="text" name="address" size="50"><br><br>
+        
+        <label>Phone Number:</label>
+        <input type="tel" name="phone"> &nbsp;&nbsp;
+        <label>Email Address:</label>
+        <input type="email" name="email"><br><br>
+        
+        <label>ID Number:</label>
+        <input type="text" name="id_number"> &nbsp;&nbsp;
+        <label>Social Security Number:</label>
+        <input type="text" name="ssn"><br><br>
+        
+        <label>Status:</label>
+        <input type="checkbox" name="status" value="Single"> Single
+        <input type="checkbox" name="status" value="Married"> Married
+        <input type="checkbox" name="status" value="Divorced"> Divorced
+        <input type="checkbox" name="status" value="Others"> Others<br><br>
+        
+        <label>Occupation:</label>
+        <input type="text" name="occupation"> &nbsp;&nbsp;
+        <label>Are you a retiree?</label>
+        <input type="radio" name="retiree" value="Yes"> Yes
+        <input type="radio" name="retiree" value="No"> No<br><br>
+
+        <h2>B. TYPE OF HEALTH COVERAGE</h2>
+        
+        <label>Employee:</label>
+        <input type="checkbox" name="employee" value="Yes"> Yes
+        <input type="checkbox" name="employee" value="No"> No &nbsp;&nbsp;
+        <label>Plan Choice:</label>
+        <input type="text" name="plan_employee"><br><br>
+        
+        <label>Spouse:</label>
+        <input type="checkbox" name="spouse" value="Yes"> Yes
+        <input type="checkbox" name="spouse" value="No"> No &nbsp;&nbsp;
+        <label>Plan Choice:</label>
+        <input type="text" name="plan_spouse"><br><br>
+        
+        <label>Children:</label>
+        <input type="checkbox" name="children" value="Yes"> Yes
+        <input type="checkbox" name="children" value="No"> No &nbsp;&nbsp;
+        <label>Plan Choice:</label>
+        <input type="text" name="plan_children"><br><br>
+        
+        <h3>Complete if Spouse/Children are Proposed for Insurance:</h3>
+        <table border="1" weight="1000">
+            <tr>
+                <th>Name</th>
+                <th>SSN No.</th>
+                <th>Relationship</th>
+                <th>Birth Date</th>
+                <th>Age</th>
+                <th>Sex</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="family_name"></td>
+                <td><input type="text" name="family_ssn"></td>
+                <td><input type="text" name="relationship"></td>
+                <td><input type="text" name="family_birth_date"></td>
+                <td><input type="text" name="family_age"></td>
+                <td><input type="text" name="family_sex"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="family_name"></td>
+                <td><input type="text" name="family_ssn"></td>
+                <td><input type="text" name="relationship"></td>
+                <td><input type="text" name="family_birth_date"></td>
+                <td><input type="text" name="family_age"></td>
+                <td><input type="text" name="family_sex"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="family_name"></td>
+                <td><input type="text" name="family_ssn"></td>
+                <td><input type="text" name="relationship"></td>
+                <td><input type="text" name="family_birth_date"></td>
+                <td><input type="text" name="family_age"></td>
+                <td><input type="text" name="family_sex"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="family_name"></td>
+                <td><input type="text" name="family_ssn"></td>
+                <td><input type="text" name="relationship"></td>
+                <td><input type="text" name="family_birth_date"></td>
+                <td><input type="text" name="family_age"></td>
+                <td><input type="text" name="family_sex"></td>
+            </tr>
+        </table>
+        
+        <h2>C. THE POLICY</h2>
+        <label>Units:</label>
+        <input type="text" name="units"> &nbsp;&nbsp;
+        <label>Annual Premium:</label>
+        <input type="text" name="annual_premium"><br><br>
+        
+        <label>Payment Mode:</label>
+        <input type="checkbox" name="payment_mode" value="Annual"> Annual
+        <input type="checkbox" name="payment_mode" value="Semi-Annual"> Semi-Annual
+        <input type="checkbox" name="payment_mode" value="Monthly"> Monthly PAT<br><br>
+        
+        <label>Cash with Application: $</label>
+        <input type="text" name="cash_application"> &nbsp;&nbsp;
+        <label>Planned modal premium: $</label>
+        <input type="text" name="planned_premium"><br><br>
+        
+        <h3>TERMS & CONDITIONS</h3>
+        <p>Improvement should be measured regularly and assessed in order for you to know what's beneficial and what is not. This will help you set new targets.</p>
+        
+        <div style="text-align: right;">
+            <label>Signature:</label>
+            <input type="text" name="signature"> &nbsp;&nbsp; 
+            <br/>
+            <br/>
+        <label>Date:</label>
+        <input type="date" name="date">
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
